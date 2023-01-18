@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  margin: auto;
+  max-width: 550px;
+  max-height: 550px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-header{
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  height: 65px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 15px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo{
+  display: flex;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.troll-logo{
+  width: 31px;
+  height: 26px;
+  margin-right: 5px;
+}
+
+.header-title{
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.1em;
+}
+
+.course-title{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
 }
