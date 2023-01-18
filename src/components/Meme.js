@@ -6,7 +6,7 @@ export default function Form(){
                     <input type="text" placeholder="Top text"></input>
                     <input type="text" placeholder="Bottom text"></input>
                 </div>
-                <input className="submit-btn" type="submit" value="Get a new meme image  🖼"></input>
+                <button className="submit-btn">Get a new meme image  🖼</button>
              </form>
         </main>
     )
